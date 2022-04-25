@@ -1,0 +1,28 @@
+version: "3.3"
+
+services:
+  frontend:
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    networks:
+      - wcc-network
+    volumes:
+      - ./frontend/package.json:/wcc-frontend/package.json
+
+  backend:
+    build: 
+      context: ./javabackend
+      dockerfile: Dockerfile
+    ports:
+      - "4500:4500"
+      - "3500:3500"
+    networks:
+      - wcc-network
+    volumes:
+      - ./config:/wcc-backend/src/main/resources
+networks:
+  wcc-network:
+    driver: bridge

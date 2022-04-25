@@ -1,0 +1,28 @@
+{
+  "users": [
+    {"id":  1, "username":  "bpws21", "password":  "bpws21", "info": {
+      "email": "bpws21@tu-darmdorf.de", "role": "Project",
+      "department": "Bachelor Project WS21/22", "contact": "group22-bpws21@tu-darmdorf.de"
+    }},
+    {"id":  2, "username":  "tung98", "password":  "tung98", "info": {
+      "email": "tung98@tu-darmdorf.de", "role": "Culi",
+      "department": "Computer Science", "contact": "hang-vuong@truong-lang.com"
+    }},
+    {"id":  3, "username":  "khai97", "password":  "khai97", "info": {
+      "email": "khai97@tu-darmdorf.de", "role": "Carrier",
+      "department": "Computer Science", "contact": "nguoi@dep-trai.vcl"
+    }},
+    {"id":  4, "username":  "tam97", "password":  "tam97", "info": {
+      "email": "tam97@tu-darmdorf.de", "role": "Developer",
+      "department": "Computer Science", "contact": "toi@kho-tinh.lam"
+    }},
+    {"id":  5, "username":  "huyen97", "password":  "huyen97", "info": {
+      "email": "huyen97@tu-darmdorf.de", "role": "Scum Master",
+      "department": "Computer Science", "contact": "lam-long@luv.4ever"
+    }},
+    {"id":  6, "username":  "jandbd", "password":  "jandbd", "info": {
+      "email": "janniklas@dornbach.info", "role": "Chairman",
+      "department": "Akademischer Arbeitskreis Schienenverkehr e. V.", "contact": "information@akabahn.de"
+    }}
+  ]
+}

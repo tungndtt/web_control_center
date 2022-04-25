@@ -1,0 +1,47 @@
+.zn-container {
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.zn-container .zn-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: white;
+    padding: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.zn-option {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.zn-headerDivider {
+    border: 1px solid #d9d9d9;
+    position: relative;
+    margin-right: 50px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.zn-container .zn-group-button {
+    align-self: center;
+}
+
+.zn-container .zn-button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap: 30px ;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    overflow: scroll;
+    max-height: calc(100vh - 80px);
+}

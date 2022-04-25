@@ -1,0 +1,10 @@
+{
+  "name": "Profile for ZN",
+  "profiles": [
+    { "uid": "zn08aus", "value": 1 },
+    { "uid": "zn11aus", "value": 0 },
+    { "uid": "zn13aus", "value": 1 },
+    { "uid": "zn11aus", "value": 0 },
+    { "uid": "zn10aus", "value": 1 }
+  ]
+}

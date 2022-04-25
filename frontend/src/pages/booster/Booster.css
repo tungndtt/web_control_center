@@ -1,0 +1,25 @@
+.text-feld{
+    border-bottom: 1px solid #888888;
+}
+.header{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+tbody, td, tfoot, th, thead, tr{
+    padding: 2px 8px !important;
+}
+.booster-container,  button{
+    font-family: 'Arial', sans-serif !important;
+    font-size: 13px !important;
+    padding: 20px;
+}
+.on-off{
+    width: 75px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px
+}

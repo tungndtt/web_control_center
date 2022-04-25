@@ -1,0 +1,91 @@
+##########################################################################################
+1/ Uhr:
+EMIT: 
+- event: "uhr" | sending data: {operation: "start_time", value: Number}
+- event: "uhr" | sending data: {operation: "time"}
+- event: "uhr" | sending data: {operation: "stop", value: Boolean}
+- event: "uhr" | sending data: {operation: "reset", value: Boolean}
+- event: "uhr" | sending data: {operation: "speed_up", value: Number}
+LISTEN:
+- event: "uhr_update" | received data: {currentTime: Number, startTime: Number, stop: Boolean, speedUp: Number}
+
+##########################################################################################
+2/ Booster:
+EMIT:
+- event: "booster" | sending data: {uid_list: String[], operation: "technique", value: Number}
+- event: "booster" | sending data: {uid_list: String[], operation: "auto", value: Number}
+LISTEN:
+- event: "booster_update" | received data: [uid: String|String[], newValue: Number]  
+- event: "booster_try" | received data: [uid: String|String[], #try: Number]
+- event: "booster_auto" | received data: Number|Number[]
+
+##########################################################################################
+3/ Ortsbetrieb:
+EMIT:
+- event: "ortsbetrieb" | sending data: {target: "places", uid_map: Map}
+- event: "ortsbetrieb" | sending data: {target: "buchsbaum", operation: "select", value: Number}
+- event: "ortsbetrieb" | sending data: {target: "buchsbaum", operation: "signal"}
+- event: "ortsbetrieb" | sending data: {target: "others", uid: String, value: Number}
+LISTEN:
+- event: "ortsbetrieb_place_update" | received data: [uid: String|String[], newValue: Number] 
+- event: "ortsbetrieb_durchschaltung_update" | received data: [uid: String|String[], newValue: Number]
+- event: "ortsbetrieb_other_update" | received data: [uid: String|String[], newValue: Number]
+
+##########################################################################################
+4/ ZN:
+EMIT:
+- event: "zn" | sending data: {uid_list: String[], value: Number}
+LISTEN:
+- event: "zn_update" | received data: [uid: String|String[], newValue: Number]
+
+##########################################################################################
+5/ Telefone:
+EMIT:
+- event: "telefone" | sending data: {uid: String, value: Number}
+LISTEN:
+- event: "telefone_update" | received data: [uid: String|String[], newValue: Number]
+
+##########################################################################################
+6/ Block:
+EMIT:
+- event: "block" | sending data: {uid: String, value: Number}
+LISTEN:
+- event: "block_update" | received data: [uid: String|String[], newValue: Number]
+
+##########################################################################################
+7/ Handregler:
+EMIT:
+- event: "handregler" | sending data: {uid: String, value: Number}
+LISTEN:
+- event: "handregler_update" | received data: [uid: String|String[], newValue: Number]
+
+##########################################################################################
+8/ Rechner:
+EMIT:
+- event: "rechner" | sending data: {uid_list: String[], operation: "boot", value: Number}
+- event: "rechner" | sending data: {uid_list: String[], operation: "screensaver", value: Number}
+- event: "rechner" | sending data: {uid_list: String[], operation: "system", value: Number}
+- event: "rechner" | sending data: {uid_list: String[], operation: "project", value: Number}
+LISTEN:
+- event: "rechner_update" | received data: [uid: String|String[], newValue: Number]
+- event: "rechner_screensaver_update" | received data: [uid: String|String[], newValue: Number]
+- event: "rechner_system_update" | received data: [uid: String|String[], newValue: Number]
+- event: "rechner_project_update" | received data: [uid: String|String[], newValue: Number]
+
+##########################################################################################
+9/ ZNPi:
+EMIT:
+- event: "znpi" | sending data: {uid: String, operation: "desktop", value: Number}
+- event: "znpi" | sending data: {uid: String, operation: "volume", value: Number}
+- event: "znpi" | sending data: {uid: String, operation: "notification", value: Number}
+- event: "znpi" | sending data: {uid: String, operation: "znproject", value: Number}
+LISTEN:
+- event: "znpi_desktop_update" | received data: [uid: String|String[], newValue: Number]
+- event: "znpi_volume_update" | received data: [uid: String|String[], newValue: Number]
+- event: "znpi_notification_update" | received data: [uid: String|String[], newValue: Number]
+- event: "znpi_project_update" | received data: [uid: String|String[], newValue: Number]
+
+##########################################################################################
+10/ Profiles:
+EMIT:
+- event: "profile" | sending data: {value: Number}

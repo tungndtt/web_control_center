@@ -1,0 +1,63 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#IDE
+.idea
+
+# dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+
+javabackend/target/
+!javabackend/.mvn/wrapper/maven-wrapper.jar
+!javabackend/**/src/main/**/target/
+!javabackend/**/src/test/**/target/
+
+### STS ###
+javabackend/.apt_generated
+javabackend/.classpath
+javabackend/.factorypath
+javabackend/.project
+javabackend/.settings
+javabackend/.springBeans
+javabackend/.sts4-cache
+
+### IntelliJ IDEA ###
+javabackend/.idea
+javabackend/*.iws
+javabackend/*.iml
+javabackend/*.ipr
+javabackend/.mvn
+javabackend/mvnw
+javabackend/mvnw.cmd
+
+### NetBeans ###
+javabackend/nbproject/private/
+javabackend/nbbuild/
+javabackend/dist/
+javabackend/nbdist/
+javabackend/.nb-gradle/
+javabackend/build/
+!javabackend/**/src/main/**/build/
+!javabackend/**/src/test/**/build/
+
+### VS Code ###
+javabackend/.vscode/

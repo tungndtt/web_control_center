@@ -1,0 +1,56 @@
+.znpi-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.znpi-container table{
+    caption-side: bottom;
+    border-collapse: collapse;
+    border: rgba(149, 146, 146, 0.5) solid 1px;
+}
+
+.znpi-container table thead {
+    border-bottom: 2px solid #212529;
+}
+
+.znpi-container th{
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 15px 8px !important;
+}
+
+.znpi-container table tbody > tr:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.znpi-container table tbody > tr:nth-child(even){
+    background-color: transparent;
+}
+
+.znpi-container table tbody > tr:hover{
+    background-color: white;
+}
+
+.znpi-container td{
+    font-size: 16px; 
+    font-weight: 600; 
+    color: rgb(124, 121, 121); 
+    padding: 10px;
+}
+
+.notification-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.notification-container input {
+    margin-right: 10px;
+}

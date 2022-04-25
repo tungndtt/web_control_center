@@ -1,0 +1,71 @@
+
+.body {
+    background: #0f3854;
+    background: radial-gradient(ellipse at center, #2c5b68 0%, #412a2a 70%);
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+#clock {
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+}
+.time {
+    letter-spacing: 0.05em;
+    font-size: 80px;
+    padding: 5px 0;
+}
+.date {
+    letter-spacing: 0.1em;
+    font-size: 24px;
+}
+.text {
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    padding: 20px 0 0;
+}
+.time-spinner-input {
+    max-width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: 400;
+}
+.set-time-btn {
+    height: 100%;
+    width: 100px;
+    margin: 0 5px;
+    font-size: 25px;
+    font-weight: 550;
+    color: white;
+}
+.speedup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+.speedup-container input {
+    width: 400px;
+    height: 7px;
+    border: solid 1px white;
+    border-radius: 8px;
+    margin-top: 15px;
+    background: white;
+    width: 356px;
+    outline: none;
+    -webkit-appearance: none;
+}

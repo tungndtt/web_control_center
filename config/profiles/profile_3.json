@@ -1,0 +1,10 @@
+{
+  "name": "Profile for Ortsbetrieb",
+  "profiles": [
+    { "uid": "wilhelmestw", "value": 1 },
+    { "uid": "nebenestw", "value": 0 },
+    { "uid": "edemestw", "value": 1 },
+    { "uid": "armstrmestw", "value": 0 },
+    { "uid": "wilhelmeow", "value": 1 }
+  ]
+}

@@ -1,0 +1,603 @@
+{
+  "booster": {
+    "places": [
+      {"uid":  "82", "name":  "Holgerode Einfahrgruppe"},
+      {"uid":  "83", "name":  "Holgerode Ausf./Pächeralp"},
+      {"uid":  "84", "name":  "Edemühlen"},
+      {"uid":  "86", "name":  "Sengotta/Muthmannsdorf"},
+      {"uid":  "87", "name":  "Armstroffmeiler/Menningen"},
+      {"uid":  "85", "name":  "Wilhelmstal"},
+      {"uid":  "89", "name":  "Käfertal/Potsdorf"},
+      {"uid":  "91", "name":  "Franzensfeld/Martinstein"},
+      {"uid":  "81", "name":  "Châteauprix"},
+      {"uid":  "16", "name":  "Eimannstetten"},
+      {"uid":  "17", "name":  "Kaufungen"},
+      {"uid":  "18", "name":  "Dornbach"},
+      {"uid":  "41", "name":  "Christophsburg"},
+      {"uid":  "90", "name":  "Abstellgruppe 100-400"},
+      {"uid":  "88", "name":  "Abstellgruppe 500-600"}
+    ],
+    "groups": [
+      {"name": "Kleiner Ring", "list":  ["81", "85", "86", "87", "89", "91"]},
+      {"name": "Großer Ring", "list":  ["81", "82", "83", "84", "85", "86", "87", "89", "91"]},
+      {"name": "Raum 05", "list": ["16", "17", "18", "41"]}
+    ]
+  },
+  "zn": [
+    {"uid":  "08", "name":  "Armstroffmeiler"},
+    {"uid":  "11", "name":  "Wilhelmstal"},
+    {"uid":  "13", "name":  "Käfertal"},
+    {"uid":  "10", "name":  "Franzensfeld"},
+    {"uid":  "22", "name":  "Potsdorf"},
+    {"uid":  "21", "name":  "Erhardsbrunn"},
+    {"uid":  "03", "name":  "Edemühlen"},
+    {"uid":  "01", "name":  "Holgerode"},
+    {"uid":  "02", "name":  "Pächeralp"},
+    {"uid":  "07", "name":  "Sengotta"},
+    {"uid":  "09", "name":  "Brillingen-Menningen"},
+    {"uid":  "12", "name":  "Martinstein"},
+    {"uid":  "16", "name":  "Eimannstetten"},
+    {"uid":  "17", "name":  "Kaufungen"},
+    {"uid":  "18", "name":  "Dornbach"},
+    {"uid":  "31", "name":  "Châteauprix"},
+    {"uid":  "41", "name":  "Christophsburg"}
+  ],
+  "handregler": [
+    {"uid":  "hndr_08", "name":  "Armstroffmeiler", "options":  [
+      {"name": "0", "value": 0},
+      {"name": "1", "value": 1},
+      {"name": "2", "value": 2},
+      {"name": "3", "value": 3},
+      {"name": "4", "value": 4},
+      {"name": "*5", "value": 5},
+      {"name": "6", "value": 6},
+      {"name": "7", "value": 7},
+      {"name": "8", "value": 8},
+      {"name": "9", "value": 9},
+      {"name": "10", "value": 10}
+    ]},
+    {"uid":  "hndr_31", "name":  "Chateauprix", "options":  [
+      {"name": "0", "value": 0},
+      {"name": "1", "value": 1},
+      {"name": "2", "value": 2},
+      {"name": "3", "value": 3},
+      {"name": "4", "value": 4},
+      {"name": "5", "value": 5},
+      {"name": "6", "value": 6},
+      {"name": "7", "value": 7},
+      {"name": "8", "value": 8},
+      {"name": "9", "value": 9},
+      {"name": "*10", "value": 10}
+    ]},
+    {"uid":  "hndr_03", "name":  "Edemühlen", "options":  [
+      {"name": "0", "value": 0},
+      {"name": "1", "value": 1},
+      {"name": "2", "value": 2},
+      {"name": "*3", "value": 3},
+      {"name": "4", "value": 4},
+      {"name": "5", "value": 5},
+      {"name": "6", "value": 6},
+      {"name": "7", "value": 7},
+      {"name": "8", "value": 8},
+      {"name": "9", "value": 9},
+      {"name": "10", "value": 10}
+    ]},
+    {"uid":  "hndr_21", "name":  "Erhardsbrunn", "options":  [
+      {"name": "0", "value": 0},
+      {"name": "1", "value": 1},
+      {"name": "2", "value": 2},
+      {"name": "3", "value": 3},
+      {"name": "4", "value": 4},
+      {"name": "5", "value": 5},
+      {"name": "6", "value": 6},
+      {"name": "7", "value": 7},
+      {"name": "*8", "value": 8},
+      {"name": "9", "value": 9},
+      {"name": "10", "value": 10}
+    ]},
+    {"uid":  "hndr_01", "name":  "Holgerode", "options":  [
+      {"name": "0", "value": 0},
+      {"name": "*1", "value": 1},
+      {"name": "2", "value": 2},
+      {"name": "3", "value": 3},
+      {"name": "4", "value": 4},
+      {"name": "5", "value": 5},
+      {"name": "6", "value": 6},
+      {"name": "7", "value": 7},
+      {"name": "8", "value": 8},
+      {"name": "9", "value": 9},
+      {"name": "10", "value": 10}
+    ]},
+    {"uid":  "hndr_13", "name":  "Käfertal", "options":  [
+      {"name": "0", "value": 0},
+      {"name": "1", "value": 1},
+      {"name": "2", "value": 2},
+      {"name": "3", "value": 3},
+      {"name": "4", "value": 4},
+      {"name": "5", "value": 5},
+      {"name": "6", "value": 6},
+      {"name": "7", "value": 7},
+      {"name": "8", "value": 8},
+      {"name": "*9", "value": 9},
+      {"name": "10", "value": 10}
+    ]},
+    {"uid":  "hndr_12", "name":  "Martinstein", "options":  [
+      {"name": "0", "value": 0},
+      {"name": "1", "value": 1},
+      {"name": "2", "value": 2},
+      {"name": "3", "value": 3},
+      {"name": "4", "value": 4},
+      {"name": "5", "value": 5},
+      {"name": "6", "value": 6},
+      {"name": "*7", "value": 7},
+      {"name": "8", "value": 8},
+      {"name": "9", "value": 9},
+      {"name": "10", "value": 10}
+    ]},
+    {"uid":  "hndr_05", "name":  "Muthmannsdorf", "options":  [
+      {"name": "0", "value": 0},
+      {"name": "1", "value": 1},
+      {"name": "2", "value": 2},
+      {"name": "3", "value": 3},
+      {"name": "4", "value": 4},
+      {"name": "5", "value": 5},
+      {"name": "6", "value": 6},
+      {"name": "7", "value": 7},
+      {"name": "*8", "value": 8},
+      {"name": "9", "value": 9},
+      {"name": "10", "value": 10}
+    ]},
+    {"uid":  "hndr_09", "name":  "Menningen", "options":  [
+      {"name": "0", "value": 0},
+      {"name": "1", "value": 1},
+      {"name": "2", "value": 2},
+      {"name": "3", "value": 3},
+      {"name": "*4", "value": 4},
+      {"name": "5", "value": 5},
+      {"name": "6", "value": 6},
+      {"name": "7", "value": 7},
+      {"name": "8", "value": 8},
+      {"name": "9", "value": 9},
+      {"name": "10", "value": 10}
+    ]},
+    {"uid":  "hndr_02", "name":  "Paecheralp", "options":  [
+      {"name": "0", "value": 0},
+      {"name": "1", "value": 1},
+      {"name": "*2", "value": 2},
+      {"name": "3", "value": 3},
+      {"name": "4", "value": 4},
+      {"name": "5", "value": 5},
+      {"name": "6", "value": 6},
+      {"name": "7", "value": 7},
+      {"name": "8", "value": 8},
+      {"name": "9", "value": 9},
+      {"name": "10", "value": 10}
+    ]},
+    {"uid":  "hndr_22", "name":  "Potsdorf", "options":  [
+      {"name": "0", "value": 0},
+      {"name": "1", "value": 1},
+      {"name": "2", "value": 2},
+      {"name": "3", "value": 3},
+      {"name": "4", "value": 4},
+      {"name": "5", "value": 5},
+      {"name": "6", "value": 6},
+      {"name": "7", "value": 7},
+      {"name": "8", "value": 8},
+      {"name": "*9", "value": 9},
+      {"name": "10", "value": 10}
+    ]},
+    {"uid":  "hndr_07", "name":  "Sengotta", "options":  [
+      {"name": "0", "value": 0},
+      {"name": "1", "value": 1},
+      {"name": "2", "value": 2},
+      {"name": "*3", "value": 3},
+      {"name": "4", "value": 4},
+      {"name": "5", "value": 5},
+      {"name": "6", "value": 6},
+      {"name": "7", "value": 7},
+      {"name": "8", "value": 8},
+      {"name": "9", "value": 9},
+      {"name": "10", "value": 10}
+    ]},
+    {"uid":  "hndr_11", "name":  "Wilhelmstal", "options":  [
+      {"name": "0", "value": 0},
+      {"name": "1", "value": 1},
+      {"name": "2", "value": 2},
+      {"name": "3", "value": 3},
+      {"name": "4", "value": 4},
+      {"name": "5", "value": 5},
+      {"name": "*6", "value": 6},
+      {"name": "7", "value": 7},
+      {"name": "8", "value": 8},
+      {"name": "9", "value": 9},
+      {"name": "10", "value": 10}
+    ]}
+  ],
+  "telefone": [
+    {"uid":  "telpaech", "name":  "Paecheralp oezF", "options":  [
+      {"name": "*UZ1:9527233", "value": 9527233},
+      {"name": "UZ2:9527255", "value": 9527255},
+      {"name": "UZ3:9527733", "value": 9527733},
+      {"name": "BZ1:9526498", "value": 9526498},
+      {"name": "BZ2:9526492", "value": 9526492}
+    ]},
+    {"uid":  "telholg", "name":  "Holgerode oezF", "options":  [
+      {"name": "UZ1:9527233", "value": 9527233},
+      {"name": "*UZ2:9527255", "value": 9527255},
+      {"name": "UZ3:9527733", "value": 9527733},
+      {"name": "BZ1:9526498", "value": 9526498},
+      {"name": "BZ2:9526492", "value": 9526492}
+    ]},
+    {"uid":  "telsengo", "name":  "Sengotta oezF", "options":  [
+      {"name": "UZ1:9527233", "value": 9527233},
+      {"name": "UZ2:9527255", "value": 9527255},
+      {"name": "*UZ3:9527733", "value": 9527733},
+      {"name": "BZ1:9526498", "value": 9526498},
+      {"name": "BZ2:9526492", "value": 9526492}
+    ]},
+    {"uid":  "telmenn", "name":  "Brillingen-Menningen oezF", "options":  [
+      {"name": "*UZ:9511933", "value": 9511933},
+      {"name": "UZTU:9511944", "value": 9511944},
+      {"name": "BZ1:9526498", "value": 9526498},
+      {"name": "BZ2:9526492", "value": 9526492}
+    ]},
+    {"uid":  "telmartin", "name":  "Martinstein oezF", "options":  [
+      {"name": "*UZ:9512033", "value": 9512033},
+      {"name": "UZTU:9512044", "value": 9512044},
+      {"name": "BZ1:9526498", "value": 9526498},
+      {"name": "BZ2:9526492", "value": 9526492}
+    ]},
+    {"uid":  "telerhard", "name":  "Erhardsbrunn oezF", "options":  [
+      {"name": "*E43:9521333", "value": 9521333},
+      {"name": "UZ:9521345", "value": 9521345},
+      {"name": "BZ1:9526498", "value": 9526498},
+      {"name": "BZ2:9526492", "value": 9526492},
+      {"name": "FSt:49", "value": 49}
+    ]},
+    {"uid":  "telpotsd", "name":  "Potsdorf oezF", "options":  [
+      {"name": "*DrS2:9521344", "value": 9521344},
+      {"name": "UZ:9521345", "value": 9521345},
+      {"name": "BZ1:9526498", "value": 9526498},
+      {"name": "BZ2:9526492", "value": 9526492},
+      {"name": "FSt:49", "value": 49}
+    ]},
+    {"uid":  "telkaufungen", "name":  "Kaufungen oezF", "options":  [
+      {"name": "*SpDrS60:9511833", "value": 9511833},
+      {"name": "UZ:9511834", "value": 9511834},
+      {"name": "BZ1:9526498", "value": 9526498},
+      {"name": "BZ2:9526492", "value": 9526492}
+    ]},
+    {"uid":  "teldornbach", "name":  "Dornbach oezF", "options":  [
+      {"name": "*UZ:9511834", "value": 9511834},
+      {"name": "BZ1:9526498", "value": 9526498},
+      {"name": "BZ2:9526492", "value": 9526492}
+    ]},
+    {"uid":  "telchristoph", "name":  "Christophsburg oezF", "options":  [
+      {"name": "*EZMG:9511836", "value": 9511836},
+      {"name": "UZ:9511834", "value": 9511834},
+      {"name": "BZ1:9526498", "value": 9526498},
+      {"name": "BZ2:9526492", "value": 9526492}
+    ]},
+    {"uid":  "telhotline", "name":  "Hotline 999999", "options":  [
+      {"name": "*Mobil:43", "value": 43},
+      {"name": "BZ1:9526498", "value": 9526498},
+      {"name": "BZ2:9526492", "value": 9526492},
+      {"name": "BZ1+BZ22:9526499", "value": 9526499},
+      {"name": "Dispo224:95347224", "value": 95347224},
+      {"name": "Dispo225:95347225", "value": 95347225},
+      {"name": "Dispo227:95347227", "value": 95347227}
+    ]},
+    {"uid":  "teltf", "name":  "Anrufe von extern", "options":  [
+      {"name": "*Abweisen:0", "value": 0},
+      {"name": "Mobil:43", "value": 43},
+      {"name": "BZ1:9526498", "value": 9526498},
+      {"name": "BZ2:9526492", "value": 9526492},
+      {"name": "BZ1+BZ22:9526499", "value": 9526499},
+      {"name": "Dispo224:95347224", "value": 95347224},
+      {"name": "Dispo225:95347225", "value": 95347225},
+      {"name": "Dispo227:95347227", "value": 95347227}
+    ]},
+    {"uid":  "telextern", "name":  "GSM-R Typ 2 Anrufe (Tf-Ruf)", "options":  [
+      {"name": "*Abweisen:0", "value": 0},
+      {"name": "Mobil:43", "value": 43},
+      {"name": "BZ1:9526498", "value": 9526498},
+      {"name": "BZ2:9526492", "value": 9526492},
+      {"name": "BZ1+BZ22:9526499", "value": 9526499},
+      {"name": "Dispo224:95347224", "value": 95347224},
+      {"name": "Dispo225:95347225", "value": 95347225},
+      {"name": "Dispo227:95347227", "value": 95347227}
+    ]}
+  ],
+  "block": [
+    {
+      "name": "Felder Block",
+      "places": [
+        {"name":  "Wilhelmstal Ww [Buchsbaum (von Käfertal)]", "controllers":  [
+          {"uid":  "s13r11g1rs", "options": [{"name": "Anfangsfeld weiß machen", "value": 2, "color": "#cfcaca"}]},
+          {"uid":  "s13r11g2vs", "options": [{"name": "Endfeld rot machen", "value": 2, "color": "#dc3545"}]}
+        ]},
+        {"name":  "Franzensfeld (von Martinstein)", "controllers":  [
+          {"uid":  "s12r10g2rs", "options": [{"name": "Anfangsfeld weiß machen", "value": 2, "color": "#cfcaca"}]},
+          {"uid":  "s12r10g1vs", "options": [{"name": "Endfeld rot machen", "value": 2, "color": "#dc3545"}]}
+        ]},
+        {"name":  "Franzensfeld (von Potsdorf)", "controllers":  [
+          {"uid":  "s22r10rs", "options": [{"name": "Anfangsfeld weiß machen", "value": 2, "color": "#cfcaca"}]},
+          {"uid":  "s22r10vs", "options": [{"name": "Endfeld rot machen", "value": 2, "color": "#dc3545"}]},
+          {"uid":  "s22r10es", "options": [{"name":  "Erlaubnisfeld weiß machen", "value": 2, "color": "#cfcaca"}]}
+        ]},
+        {"name":  "Erhardsbrunn (von Potsdorf)", "controllers":  [
+          {"uid":  "s22r21rs", "options": [{"name": "Anfangsfeld weiß machen", "value": 2, "color": "#cfcaca"}]},
+          {"uid":  "s22r21vs", "options": [{"name": "Endfeld rot machen", "value": 2, "color": "#dc3545"}]},
+          {"uid":  "s22r21es", "options": [{"name":  "Erlaubnisfeld weiß machen", "value": 2, "color": "#cfcaca"}]}
+        ]},
+        {"name":  "Erhardsbrunn (von Holgerode)", "controllers":  [
+          {"uid":  "s01r21es", "options": [{"name": "Anfangsfeld weiß machen", "value": 2, "color": "#cfcaca"}]},
+          {"uid":  "s01r21as", "options": [{"name": "Endfeld rot machen", "value": 2, "color": "#dc3545"}]},
+          {"uid":  "s01r21rs", "options": [{"name":  "Erlaubnisfeld weiß machen", "value": 2, "color": "#cfcaca"}]}
+        ]},
+        {"name":  "Armstroffmeiler (von Muthmannsdorf)", "controllers":  [
+          {"uid":  "se05r08rs", "options": [{"name": "Anfangsfeld weiß machen", "value": 2, "color": "#cfcaca"}]},
+          {"uid":  "se05r08vs", "options": [{"name": "Endfeld rot machen", "value": 2, "color": "#dc3545"}]},
+          {"uid":  "se05r08es", "options": [{"name":  "Erlaubnisfeld weiß machen", "value": 2, "color": "#cfcaca"}]}
+        ]}
+      ]
+    },
+    {
+      "name": "Relais Block 1",
+      "places": [
+        {"name":  "Potsdorf-Stephansroda (v/n Franzensfeld)", "controllers":  [
+          {"uid": "sd22r10vi", "options":  [
+            {"name":  "Anfangsfeld weiß machen", "value":  1, "color": "#cfcaca"}, {"name":  "Anfangsfeld rot machen", "value":  2, "color": "#dc3545"}
+          ]},
+          {"uid": "sd22r10ri", "options": [
+            {"name":  "Endfeld weiß machen", "value":  2, "color": "#cfcaca"}, {"name":  "Endfeld rot machen", "value":  1, "color": "#dc3545"}
+          ]},
+          {"uid": "sd22r10ei", "options":  [
+            {"name":  "Erlaubnisfeld weiß machen", "value":  1, "color": "#cfcaca"}, {"name":  "Erlaubnisfeld rot machen", "value": 2, "color": "#dc3545"}
+          ]}
+        ]},
+        {"name":  "Potsdorf-Stephansroda (v/n Erhardsbrunn)", "controllers":  [
+          {"uid": "s22r21vi", "options": [
+            {"name":  "Anfangsfeld weiß machen", "value":  1, "color": "#cfcaca"}, {"name":  "Anfangsfeld rot machen", "value":  2, "color": "#dc3545"}
+          ]},
+          {"uid": "s22r21ri", "options": [
+            {"name":  "Endfeld weiß machen", "value":  2, "color": "#cfcaca"}, {"name":  "Endfeld rot machen", "value": 1, "color": "#dc3545"}
+          ]},
+          {"uid": "s22r21ei", "options":  [
+            {"name":  "Erlaubnisfeld weiß machen", "value": 1, "color": "#cfcaca"}, {"name":  "Erlaubnisfeld rot machen", "value": 2, "color": "#dc3545"}
+          ]}
+        ]},
+        {"name":  "Franzensfeld ESTW (v/n Potsdorf)", "controllers":  [
+          {"uid": "se10r22vi", "options":  [
+            {"name":  "Anfangsfeld weiß machen", "value": 1, "color": "#cfcaca"}, {"name":  "Anfangsfeld rot machen", "value":  2, "color": "#dc3545"}
+          ]},
+          {"uid": "se10r22ri", "options":  [
+            {"name":  "Endfeld weiß machen", "value":  2, "color": "#cfcaca"}, {"name":  "Endfeld rot machen", "value":  1, "color": "#dc3545"}
+          ]},
+          {"uid": "se10r22ei", "options": [
+            {"name":  "Erlaubnisfeld weiß machen", "value":  1, "color": "#cfcaca"}, {"name":  "Erlaubnisfeld rot machen", "value": 2, "color": "#dc3545"}
+          ]}
+        ]},
+        {"name":  "Franzensfeld ESTW (v/n Martinstein)", "controllers":  [
+          {"uid": "se10r12g2vi", "options":  [
+            {"name":  "Anfangsfeld weiß machen", "value": 1, "color": "#cfcaca"}, {"name":  "Anfangsfeld rot machen", "value": 2, "color": "#dc3545"}
+          ]},
+          {"uid": "se10r12g2ri", "options": [
+            {"name":  "Endfeld weiß machen", "value": 2, "color": "#cfcaca"}, {"name":  "Endfeld rot machen", "value": 1, "color": "#dc3545"}
+          ]}
+        ]},
+        {"name":  "Erhardsbrunn ESTW (v/n Holgerode)", "controllers":  [
+          {"uid": "se21r01vi", "options": [
+            {"name":  "Anfangsfeld weiß machen", "value": 1, "color": "#cfcaca"}, {"name":  "Anfangsfeld rot machen", "value": 2, "color": "#dc3545"}
+          ]},
+          {"uid": "se21r01ri", "options": [
+            {"name":  "Endfeld weiß machen", "value":  2, "color": "#cfcaca"}, {"name":  "Endfeld rot machen", "value":  1, "color": "#dc3545"}
+          ]},
+          {"uid": "se21r01ei", "options": [
+            {"name":  "Erlaubnisfeld weiß machen", "value": 1, "color": "#cfcaca"}, {"name":  "Erlaubnisfeld rot machen", "value": 2, "color": "#dc3545"}
+          ]}
+        ]},
+        {"name":  "Holgerode (v/n Erhardsbrunn)", "controllers":  [
+          {"uid": "se01r21vi", "options": [
+            {"name":  "Anfangsfeld weiß machen", "value": 1, "color": "#cfcaca"}, {"name":  "Anfangsfeld rot machen", "value":  2, "color": "#dc3545"}
+          ]},
+          {"uid": "se01r21ri", "options": [
+            {"name":  "Endfeld weiß machen", "value": 2, "color": "#cfcaca"}, {"name":  "Endfeld rot machen", "value": 1, "color": "#dc3545"}
+          ]},
+          {"uid": "se01r21ei", "options": [
+            {"name":  "Erlaubnisfeld weiß machen", "value": 1, "color": "#cfcaca"}, {"name":  "Erlaubnisfeld rot machen", "value":  2, "color": "#dc3545"}
+          ]}
+        ]},
+        {"name":  "Martinstein (v/n Franzensfeld)", "controllers":  [
+          {"uid": "sd12r10g1vi", "options": [
+            {"name":  "Anfangsfeld weiß machen", "value": 1, "color": "#cfcaca"}, {"name":  "Anfangsfeld rot machen", "value": 2, "color": "#dc3545"}
+          ]},
+          {"uid": "sd12r10g1ri", "options": [
+            {"name":  "Endfeld weiß machen", "value": 2, "color": "#cfcaca"}, {"name":  "Endfeld rot machen", "value": 2, "color": "#dc3545"}
+          ]}
+        ]},
+        {"name":  "Käfertal (v/n Wilhelmstal)", "controllers":  [
+          {"uid": "s13r11g2vi", "options": [
+            {"name":  "Anfangsfeld weiß machen", "value": 1, "color": "#cfcaca"}, {"name":  "Anfangsfeld rot machen", "value": 2, "color": "#dc3545"}
+          ]},
+          {"uid": "s13r11g2ri", "options": [
+            {"name":  "Endfeld weiß machen", "value": 2, "color": "#cfcaca"}, {"name":  "Endfeld rot machen", "value": 1, "color": "#dc3545"}
+          ]},
+          {"uid": "s13r11g2wdhsp", "options": [
+            {"name":  "Wdh.sperre n.Wt löschen", "value": 1, "color": "#ffc107"}, {"name":  "Wdh.sperre n.Wt setzen", "value": 2}
+          ]}
+        ]}
+      ]
+    },
+    {
+      "name": "Relais Block 2",
+      "places": [
+        {"name":  "Muthmannsdorf ESTW (v/n Armstroffmeiler GsII)", "controllers":  [
+          {"uid": "se05r08vi", "options": [
+            {"name":  "Anfangsfeld weiß machen", "value": 1, "color": "#cfcaca"}, {"name":  "Anfangsfeld rot machen", "value": 2, "color": "#dc3545"}
+          ]},
+          {"uid": "se05r08ri", "options": [
+            {"name":  "Endfeld weiß machen", "value": 2, "color": "#cfcaca"}, {"name":  "Endfeld rot machen", "value": 1, "color": "#dc3545"}
+          ]},
+          {"uid": "se05r08ei", "options": [
+            {"name":  "Erlaubnisfeld weiß machen", "value": 1, "color": "#cfcaca"}, {"name":  "Erlaubnisfeld rot machen", "value": 2, "color": "#dc3545"}
+          ]}
+        ]},
+        {"name":  "Armstroffmeiler GsII (v/n Muthmannsdorf ESTW)", "controllers":  [
+          {"uid": "se08r05vi", "options": [
+            {"name":  "Anfangsfeld weiß machen", "value": 1, "color": "#cfcaca"}, {"name":  "Anfangsfeld rot machen", "value": 2, "color": "#dc3545"}
+          ]},
+          {"uid": "se08r05ri", "options": [
+            {"name":  "Endfeld weiß machen", "value": 2, "color": "#cfcaca"}, {"name":  "Endfeld rot machen", "value":  1, "color": "#dc3545"}
+          ]},
+          {"uid": "se08r05ei", "options": [
+            {"name":  "Erlaubnisfeld weiß machen", "value": 1, "color": "#cfcaca"}, {"name":  "Erlaubnisfeld rot machen", "value": 2, "color": "#dc3545"}
+          ]}
+        ]},
+        {"name":  "Potsdorf-Stephansroda (v/n Franzensfeld)", "controllers":  [
+          {"uid": "s22r10wdhsp", "options": [
+            {"name":  "Wdh.sperre n.Fd löschen", "value": 1, "color": "#ffc107"}, {"name":  "Wdh.sperre n.Fd setzen", "value": 2}
+          ]}
+        ]},
+        {"name":  "Potsdorf-Stephansroda (v/n Erhardsbrunn)", "controllers":  [
+          {"uid": "s22r21wdhsp", "options": [
+            {"name":  "Wdh.sperre n.Fd löschen", "value": 1, "color": "#ffc107"}, {"name":  "Wdh.sperre n.Fd setzen", "value": 2}
+          ]}
+        ]}
+      ]
+    }
+  ],
+    "ortsbetrieb": {
+    "places": [
+      {"uid":  "wilhelmestw", "name": "Wilhelmstal, Franzensfeld, Käfertal, Gunkeln", "options":  ["Alttechnik", "ESTW"]},
+      {"uid":  "nebenestw", "name": "Nebenbahn (Potsdorf, Erhardsbrunn)", "options":  ["Alttechnik", "ESTW"]},
+      {"uid":  "edemestw", "name": "Edemühlen Bahnhof", "options":  ["SpDrS60", "ESTW"]},
+      {"uid":  "armstrmestw", "name": "Armstroffmeiler Bahnhof", "options":  ["Alttechnik", "ESTW", "GsII"]},
+      {"uid":  "wilhelmeow", "name": "Wilhelmstal EOW-Bereich", "options":  ["Alttechnik", "ESTW"]},
+      {"uid":  "chateauestw", "name": "Châteauprix", "options":  ["PRS", "ESTW"]},
+      {"uid":  "kaufungenestw", "name": "Kaufungen", "options":  ["SpDrS60", "ESTW"]},
+      {"uid":  "christophestw", "name": "Christophsburg", "options":  ["EZMG", "ESTW"]}
+    ],
+    "macros": [
+      {"name":  "Alttechnik", "map":  {
+        "wilhelmestw": 0,
+        "nebenestw": 0,
+        "edemestw": 0,
+        "armstrmestw": 0,
+        "wilhelmeow": 0,
+        "chateauestw": 1,
+        "kaufungenestw": 0,
+        "christophestw": 1
+      }},
+      {"name":  "ESTW", "map":  {
+        "wilhelmestw": 1,
+        "nebenestw": 1,
+        "edemestw": 1,
+        "armstrmestw": 1,
+        "wilhelmeow": 1,
+        "chateauestw": 1,
+        "buchsdurch": 0,
+        "kaufungenestw": 1,
+        "christophestw": 1
+      }}
+    ],
+    "durchschaltung": {
+      "uid":  "buchsdurch", "name":  "Buchsbaum",
+      "options": ["eingeschaltet", "durchgeschaltet"],
+      "signals": [11700, 11800]
+    },
+    "others": [
+      {"uid": "nebenznaus", "name": "ZN Nebenbahn", "options": ["eingeschaltet", "ausgeschaltet"]},
+      {"uid":  "st0121stichstr", "name":  "Erhardsbrunn nach Beckersbach - Holgerode", "options": ["normal", "Stichstrecke"]},
+      {"uid":  "tu_dsa", "name":  "Zugriff TU-Rechner auf DSA Edemühlen", "options": ["gesperrt", "freigegeben"]},
+      {"uid":  "tu_fernzugriff", "name":  "VPN-Fernzugriff für TU-Partner auf Anlagendaten", "options": ["gesperrt", "freigegeben"]},
+      {"uid":  "FORSCHUNGSRING", "name":  "Forschungsring", "options": ["deaktiviert", "aktiviert"]}
+    ]
+  },
+  "rechner": {
+    "computers": [
+      {"uid":  "91", "type": "BZ1", "name":  "Empore Rechts", "os": ["Linux", "Window"]},
+      {"uid":  "92", "type": "BZ2", "name":  "Empore Links", "os": ["Linux", "Window"]},
+      {"uid":  "01", "type": "Orts-ESTW-01", "name":  "Pächeralp", "os": ["Linux", "Window"]},
+      {"uid":  "02", "type": "Orts-ESTW-02", "name":  "Holgerode", "os": ["Linux", "Window"]},
+      {"uid":  "03", "type": "Orts-ESTW-03", "name":  "Dispo 3 bei ZDS", "os": ["Linux", "Window"]},
+      {"uid":  "04", "type": "Orts-ESTW-04", "name":  "Dispo 4 bei ZDPO", "os": ["Linux", "Window"]},
+      {"uid":  "05", "type": "Orts-ESTW-05", "name":  "Martinstein", "os": ["Linux", "Window"]},
+      {"uid":  "06", "type": "Orts-ESTW-06", "name":  "Brillingen-Menningen", "os": ["Linux", "Window"]},
+      {"uid":  "07", "type": "Orts-ESTW-07", "name":  "Sengotta", "os": ["Linux", "Window"]},
+      {"uid":  "08", "type": "Orts-ESTW-08", "name":  "Dispo 8 bei ZDBU", "os": ["Linux", "Window"]},
+      {"uid":  "09", "type": "Orts-ESTW-09", "name":  "Dispo 9 bei ZDW Ww", "os": ["Linux", "Window"]},
+      {"uid":  "11", "type": "Orts-ESTW-11", "name":  "Empore Rechts", "os": ["Linux", "Window"]},
+      {"uid":  "12", "type": "Orts-ESTW-12", "name":  "R5 Rechts", "os": ["Linux", "Window"]},
+      {"uid":  "13", "type": "Orts-ESTW-13", "name":  "R5 Mitte", "os": ["Linux", "Window"]},
+      {"uid":  "14", "type": "Orts-ESTW-14", "name":  "R5 Links (Zusi-AS)", "os": ["Linux", "Window"]}
+    ],
+    "projects": [
+      {"value":  0, "name": "Kein Projekt"},
+      {"value":  1, "name":  "../martin-of.konf"},
+      {"value":  10, "name":  "../bz2tu.konf"},
+      {"value":  11, "name":  "../sengo.konf"},
+      {"value":  12, "name":  "../estw-RN.konf"},
+      {"value":  13, "name":  "../paech.konf"},
+      {"value":  14, "name":  "../bz1tu.konf"},
+      {"value":  15, "name":  "../bz2.konf"},
+      {"value":  16, "name":  "../te_me-tu.konf"},
+      {"value":  17, "name":  "../chateau.konf"},
+      {"value":  18, "name":  "../holgerode.konf"},
+      {"value":  19, "name":  "../bz2tu+.konf"},
+      {"value":  2, "name":  "../bz1fub.konf"},
+      {"value":  20, "name":  "../te_me+.konf"},
+      {"value":  21, "name":  "../bz1+.konf"},
+      {"value":  22, "name":  "../martin-rz.konf"},
+      {"value":  23, "name":  "../bz1kpl.konf"},
+      {"value":  3, "name":  "../te_me.konf"},
+      {"value":  4, "name":  "../bz1.konf"},
+      {"value":  5, "name":  "../martin.konf"},
+      {"value":  6, "name":  "../martin-tu.konf"},
+      {"value":  7, "name":  "../wilh.konf"},
+      {"value":  8, "name":  "../te_me-rz.konf"},
+      {"value":  9, "name":  "../paechersolo.konf"}
+    ],
+    "groups": [
+      {"name":  "Kleiner Ring", "list": ["04", "05"]},
+      {"name":  "Großer Ring", "list": ["01", "02", "03", "04", "05", "06", "07"]},
+      {"name":  "BZ1+2", "list": ["91", "92"]}
+    ]
+  },
+  "znpi": {
+    "places": [
+      {"uid": "08", "name": "Armstroffmeiler"},
+      {"uid": "41", "name": "Christophsburg"},
+      {"uid": "03", "name": "Edemühlen"},
+      {"uid": "21", "name": "Erhardsbrunn"},
+      {"uid": "10", "name": "Franzensfeld"},
+      {"uid": "13", "name": "Käfertal"},
+      {"uid": "17", "name": "Kaufungen"},
+      {"uid": "22", "name": "Potsdorf-Stephansroda"},
+      {"uid": "11", "name": "Wilhelmstal"},
+      {"uid": "31", "name": "Châteauprix"}
+    ],
+    "desktops": ["Unbekannt", "Desktop", "ZNS901R", "Uhr", "Fahrsteuerung", "PZB-Übersicht", "ZN-Übersicht", "Shell", "ZN800", "ZN800 Drucker"],
+    "projects": [
+      {"value": 0, "name": "Kein Projekt"},
+      {"value": 1, "name": "zda-alt"},
+      {"value": 2, "name": "zda"},
+      {"value": 3, "name": "zde-alt"},
+      {"value": 4, "name": "zde"},
+      {"value": 5, "name": "zdeb-alt"},
+      {"value": 6, "name": "zdeb"},
+      {"value": 7, "name": "zdf-alt"},
+      {"value": 8, "name": "zdf"},
+      {"value": 9, "name": "zdk-alt"},
+      {"value": 10, "name": "zdk"},
+      {"value": 11, "name": "zdpo-alt"},
+      {"value": 12, "name": "zdpo"},
+      {"value": 13, "name": "zdw-alt"},
+      {"value": 14, "name": "zdw"},
+      {"value": 15, "name": "zdxfc-alt"},
+      {"value": 16, "name": "zdxfc"}
+    ],
+    "volume": [0, 100],
+    "notifications": ["Banner", "Sprachansage"]
+  }
+}

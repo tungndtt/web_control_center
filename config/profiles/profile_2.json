@@ -1,0 +1,10 @@
+{
+  "name": "Profile for Handregler",
+  "profiles": [
+    { "uid": "hndr_08", "value": 0 },
+    { "uid": "hndr_31", "value": 1 },
+    { "uid": "hndr_03", "value": 2 },
+    { "uid": "hndr_21", "value": 3 },
+    { "uid": "hndr_01", "value": 4 }
+  ]
+}

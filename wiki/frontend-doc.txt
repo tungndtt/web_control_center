@@ -1,0 +1,22 @@
+########################################### Frontend Documentation ###########################################
+
+1/ Base Directory: frontend/src/
+
+2/ Components:
+
+- /repository/.index.js 
+	Including socket, load system state and server response listeners 
+	The variable "actions" maps the server response to corresponding action for changing UI state
+	The functions "emitAction" triggers emitting to server when UI elements are changed
+
+- /states/*
+	Including the application UI states and reducers for changing the UI states
+
+- /pages/*
+	Including login and main pages for controlling the system
+
+- /reusable-components/*
+	UI components that are reusable in the implementation 
+
+- App.js
+	Including the routes to login page and control pages

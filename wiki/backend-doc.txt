@@ -1,0 +1,32 @@
+########################################### Backend Documentation ###########################################
+
+1/ Base Directory: /javabackend/src/main/java/tud/bpws21/dbd/
+
+2/ Components:
+
+- config/ControlConfiguration.java
+	 Including the EDB system state configuration (parsed from control_config.json)
+
+- config/ControlProfile.java
+	Including the pre-defined profiles settings (parsed from /profiles/ directory)
+
+- config/Config.java
+	Including the server backend configuration (parsed from application.properties)
+	Including EDB system state and profile settings
+
+- usermanager/UserManager.java
+	Including users authentication (parsed from users.json)
+
+- rest/Login.java
+	Including REST-API for login request
+
+- token/Token.java
+	Including functions to generate and verify Java Web token (JWT)
+
+- socket/Socket.java
+	Including socket connection between application frontend - backend server - EDB server
+	Function "addEventListener" adds the token verifier as middleware for every client socket request
+	Function "broadcast" broadcasts server response to all clients 
+
+- socket/*Hanlder.java
+	Including client request and EDB response listeners
